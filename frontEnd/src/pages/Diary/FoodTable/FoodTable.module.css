@@ -1,0 +1,8 @@
+.table-row:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.table-row--active {
+  background-color: #dfdfdf;
+}

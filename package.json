@@ -1,0 +1,16 @@
+{
+  "name": "cronoCopy",
+  "version": "1.0.0",
+  "description": "Calorie counting",
+  "main": "index.js",
+  "author": "David Kabaly",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "backEnd",
+    "frontEnd"
+  ],
+  "scripts": {
+    "full-start": "yarn workspace backEnd start:dev & yarn workspace frontEnd dev"
+  }
+}
